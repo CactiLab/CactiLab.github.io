@@ -1,0 +1,8 @@
+#!/bin/sh
+umask 0027
+
+PHPRC=.
+export PHPRC
+
+exec /usr/local/php5/bin/php-cgi
+
