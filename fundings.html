@@ -31,6 +31,9 @@
         display: block;
     }
     </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="./toggle.js"></script>
+      <script src="./mergeSort.js"></script>
 </head>
 
 <body>
@@ -57,10 +60,10 @@
                         <a href="./index.html#Members">Members</a>
                     </li>
                     <li>
-                        <a href="./fundings.html">Fundings</a>
+                        <a href="">Fundings</a>
                     </li>
                     <li>
-                        <a href="">CTFs and Competitions</a>
+                        <a href="./ctf.html">CTFs and Competitions</a>
                     </li>
                 </ul>
             </div>
@@ -78,40 +81,32 @@
             <!-- <p><a class="btn btn-lg btn-primary" href="https://github.com/orgs/CactiLab" role="button">GitHub</a></p>-->
         </div>
 
-        <!-- CTFs -->
+        <!-- Fundings -->
         <div class="row tall-row">
             <div class="col-lg-12">
-                <h2>CTFs and Competitions</h2>
+                <h2>Fundings</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="alert alert-dismissible alert-success">
-                    <p>Ziming and CactiLab lead hacking teams (Cacti and TigerBytes) in hardware and software CTFs and competitions. In Spring 2020, Ziming runs a public hacking training session every Wednesday 2:00PM - 4:00PM at GOL-2500. The session is open to everyone who has interest in offensive and defensive techniques. Due to the coronavirus breakout, the hacking sessions are cancelled. Stay safe and healthy!</p>
-                </div>
-	    </div>
-        </div>
 
-        <!-- CTFs -->
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="alert alert-dismissible alert-success">
-		    <p>
-                    <img src="./pics/MITREectf2019.jpg" height="345" alt="pic" />
-                    <p>Team TigerBytes (Max Proskauer, Langston Menezes, Stuart Nevans Locke, Alden Davidson, Eric Scheler, Thomas Cenova, Jason Blocklove, Prateek Talukdar, Brandon Adler, Jonathan Nissan), in the picture from left to right: Thomas Cenova, Brandon Adler, and Eric Scheler, advised by Dr. Ziming Zhao and Dr. Marcin Lukowiak placed third in the 2019 MITRE Collegiate eCTF (embedded capture-the-flag) cybersecurity competition.
-                    </p></p>
-                </div>
-	    </div>
-
-            <div class="col-lg-6">
-                <div class="alert alert-dismissible alert-success">
-		    <p>
-                    <img src="./pics/DoECTF2019.png" height="345" alt="pic" />
-                    <p>Team Cacti (Jake Brown, Connor Shade, Jack McKenna, Aaron Gdanski, Devon Reilly, Pierce Walker) advised by Dr. Ziming Zhao prepares for 2019 Department of Energy CyberForce Competition.
-                    </p></p>
-                </div>
-	    </div>
-        </div>
+       <div id="fundingdatabase">
+         <ul>
+	   <li class="funding">
+                PI: <span class="self">Ziming Zhao</span>. NSF, <span class="paper_title">CRII: SaTC: Securing Internet of Things Against Cache-based Attacks.</span> 2020 - 2022
+                    <br />
+                    <br />
+	   </li>
+	   <li class="funding">
+                Co-PI: <span class="self">Ziming Zhao</span>. DoD, <span class="paper_title">VSER - Vehicle Security Education and Research.</span> 2019 - 2020
+                    <br />
+                    <br />
+	   </li>
+	   <li class="funding">
+                Co-PI: <span class="self">Ziming Zhao</span>. NSF, <span class="paper_title">Arizona Cyber Defense Scholarship.</span> 2019 - 2020
+                    <br />
+                    <br />
+	   </li>
+	 </ul>
+      </div>
 
         <div class="row tall-row">
             <div class="col-md-12">
@@ -121,9 +116,12 @@
 
     </div>
 
+      <script type="text/javascript">
+         $(document).ready(toggle('data-time', false));
+      </script>
+
     <script src="./jquery.min.js"></script>
     <script src="./bootstrap.min.js"></script>
-
 
 
 </body></html>
