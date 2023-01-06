@@ -446,12 +446,12 @@ footer.sticky-bottom {
   }
 
   .grid-sizer, .grid-item {
-    width: 250px;
+    width: 235px;
     margin-bottom: 10px;
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    color: ---black-color-day;
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
@@ -459,6 +459,52 @@ footer.sticky-bottom {
     text-align: right;
   }
 }
+
+
+// CTF
+
+.ctf {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    img {
+      width: 100%;
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-sizer, .grid-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  h2.category {
+    color: ---black-color-day;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
 
 
 // Publications
@@ -479,7 +525,7 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: var(--global-divider-color);
+    color: --black-color-day;
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -517,7 +563,7 @@ footer.sticky-bottom {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
-      }
+      } 
       .title {
         font-weight: bolder;
       }
