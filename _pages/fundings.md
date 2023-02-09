@@ -10,7 +10,7 @@ nav_order: 5
 
 - PI: Ziming Zhao, Co-PIs: Hongxin Hu, Shambhu Upadhyaya. NCAE NSA. HACF: Building High Assurance Containers Using FPGA. $490,879, 2022 - 2024. 
 
-- PI: Hongxin Hu, Co-PIs: Maria Rodriguez, Yini Zhang, Ziming Zhao, and Si-wei Lyu. NSF. Collaborative Research: SAI-R: Integrative Cyberinfrastructure for Enhancing and Accelerating Online Abuse Research. $375,000, 2022 - 2025. 
+- PI: Hongxin Hu, Co-PIs: Maria Rodriguez, Yini Zhang, Ziming Zhao, and Si-wei Lyu. NSF. Collaborative Research: SAI-R: Integrative Cyberinfrastructure for Enhancing and Accelerating Online Abuse Research. $375,000 (Total: $750,000), 2022 - 2025. 
 
 - PI: Hongxin Hu, Co-PI: Ziming Zhao. Amazon Research Award. Explaining Learning-based Intrusion Detection Systems for Active Intrusion Responses. $100,000, 2022 - 2023.
 
