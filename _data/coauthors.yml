@@ -3,7 +3,7 @@
     url: https://mintancy.github.io/
 
 "Zhang":
-  - firstname: ["Ning"]
+  - firstname: ["Ning", "Ning Zhang"]
     url: https://cybersecurity.seas.wustl.edu/ning/index.html
 
 "Ziarek":
@@ -11,7 +11,7 @@
     url: https://cse.buffalo.edu/~lziarek/
         
 "Hu":
-  - firstname: ["Hongxin Hu","Hongxin", "Hu"]
+  - firstname: ["Hongxin Hu", "Hongxin", "Hu"]
     url: https://cse.buffalo.edu/~hongxinh/
 
 "Doupé":
