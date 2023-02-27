@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-10-01 00:00:00-0000
+date: 2022-05-01 00:00:00-0400
 inline: true
 ---
 
-[Paper] "Having Your Cake and Eating It: An Analysis of Concession-Abuse-as-a-Service" has been accepted by **USENIX Security 2021**!
+[Paper] Our paper entitled "Understanding and Detecting Remote Infection on Linux-based IoT Devices" won the best paper award at **AsiaCCS**'22! 
