@@ -5,5 +5,6 @@ description: Fall 2021 <br> Major advisor Hongxin Hu
 img: assets/img/members/wei.jpg
 importance: 5
 category: PhD Students
+redirect: https://akafengfeng.github.io/
 ---
 
