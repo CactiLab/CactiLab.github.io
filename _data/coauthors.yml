@@ -14,13 +14,13 @@
   - firstname: ["Jing"]
     url: https://scholar.google.com/citations?user=MZ8wtusAAAAJ&hl=en
 
-"Chen":
-  - firstname: ["Kai"]
-    url: https://kaichen.org/
+#"Chen":
+#  - firstname: ["Kai"]
+#    url: https://kaichen.org/
     
-"Chen":
-  - firstname: ["Qi", "Qi Alfred"]
-    url: https://www.ics.uci.edu/~alfchen/
+#"Chen":
+#  - firstname: ["Qi", "Qi Alfred"]
+#    url: https://www.ics.uci.edu/~alfchen/
     
 "Cheng":
   - firstname: ["Long"]
