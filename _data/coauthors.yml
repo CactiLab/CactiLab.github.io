@@ -13,6 +13,8 @@
 "Chen":
   - firstname: ["Jing"]
     url: https://scholar.google.com/citations?user=MZ8wtusAAAAJ&hl=en
+  - firstname: ["Kai"]
+    url: https://kaichen.org/
 
 #"Chen":
 #  - firstname: ["Kai"]
@@ -47,7 +49,7 @@
     url: https://cse.buffalo.edu/~lziarek/
         
 "Hu":
-  - firstname: ["Hongxin Hu", "Hongxin", "Hu"]
+  - firstname: ["Hongxin"]
     url: https://cse.buffalo.edu/~hongxinh/
 
 "Shoshitaishvili":
@@ -63,7 +65,7 @@
     url: https://www.zhibosun.me/index.html
 
 "Oest":
-  - firstname: ["Adam Oest","Adam", "Oest"]
+  - firstname: ["Adam"]
     url: https://www.adamoest.com/
 
 "Rubio-Medrano":
@@ -95,11 +97,11 @@
     url: https://cj.msu.edu/directory/holt-thomas.html
 
 "Yang":
-  - firstname: ["Dejun Yang","Dejun", "Yang"]
+  - firstname: ["Dejun"]
     url: https://people.mines.edu/djyang/
 
 "Luo":
-  - firstname: ["Feng Luo","Feng", "Luo"]
+  - firstname: ["Feng"]
     url: https://people.computing.clemson.edu/~luofeng/
 
 "Lamp":
@@ -107,7 +109,7 @@
     url: https://www.josephinelamp.com/
 
 "Li":
-  - firstname: ["Hongda Li", "Hongda", "Li", "Li, Hongda"]
+  - firstname: ["Hongda"]
     url: http://web.hongdal.net/
 
 "Wang":
@@ -123,7 +125,7 @@
     url: http://cobweb.cs.uga.edu/~kangli/
   
 "Wei":
-  - firstname: ["Feng Wei","Feng", "Wei"]
+  - firstname: ["Feng"]
     url: https://akafengfeng.github.io/
   
 "Armanuzzaman":
