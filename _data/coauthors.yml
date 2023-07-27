@@ -2,8 +2,8 @@
   - firstname: ["Xi"]
     url: https://mintancy.github.io/
 
-"Zhang":
-  - firstname: ["Ning", "Ning Zhang"]
+"Ning Zhang":
+  - firstname: ["Ning"]
     url: https://cybersecurity.seas.wustl.edu/ning/index.html
 
 "Ziarek":
@@ -15,7 +15,7 @@
     url: https://cse.buffalo.edu/~hongxinh/
 
 "Doupé":
-  - firstname: ["Adam Doupé","Adam", "Doupé", "Doupe"]
+  - firstname: ["Adam Doupé", "Adam", "Doupé", "Doupe"]
     url: https://adamdoupe.com/
 
 "Ahn":
