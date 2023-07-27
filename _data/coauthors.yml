@@ -1,8 +1,44 @@
+"Ahn":
+  - firstname: ["Gail-Joon"]
+    url: https://www.public.asu.edu/~gahn1/
+    
+"Bao":
+  - firstname: ["Tiffany"]
+    url: https://www.tiffanybao.com/    
+
+"Caine":
+  - firstname: ["Kelly"]
+    url: http://kellycaine.org/
+
+"Chen":
+  - firstname: ["Jing"]
+    url: https://scholar.google.com/citations?user=MZ8wtusAAAAJ&hl=en
+
+"Chen":
+  - firstname: ["Kai"]
+    url: https://kaichen.org/
+    
+"Chen":
+  - firstname: ["Qi", "Qi Alfred"]
+    url: https://www.ics.uci.edu/~alfchen/
+    
+"Cheng":
+  - firstname: ["Long"]
+    url: https://people.computing.clemson.edu/~lcheng2/    
+    
+"Cho":
+  - firstname: ["Haehyun"]
+    url: https://haehyun.github.io/    
+    
+"Doupé":
+  - firstname: ["Adam"]
+    url: https://adamdoupe.com/
+    
 "Tan":
   - firstname: ["Xi"]
     url: https://mintancy.github.io/
 
-"Ning Zhang":
+"Zhang":
   - firstname: ["Ning"]
     url: https://cybersecurity.seas.wustl.edu/ning/index.html
 
@@ -14,24 +50,12 @@
   - firstname: ["Hongxin Hu", "Hongxin", "Hu"]
     url: https://cse.buffalo.edu/~hongxinh/
 
-"Doupé":
-  - firstname: ["Adam Doupé", "Adam", "Doupé", "Doupe"]
-    url: https://adamdoupe.com/
-
-"Ahn":
-  - firstname: ["Gail-Joon Ahn", "Gail-Joon", "Ahn"]
-    url: https://www.public.asu.edu/~gahn1/
-
 "Shoshitaishvili":
   - firstname: ["Yan Shoshitaishvili", "Yan", "Shoshitaishvili"]
     url: https://yancomm.net/
 
-"Bao":
-  - firstname: ["Tiffany Bao", "Tiffany", "Bao"]
-    url: https://www.tiffanybao.com/
-
 "Zhang":
-  - firstname: ["Penghui Zhang","Penghui", "Zhang"]
+  - firstname: ["Penghui"]
     url: https://formerbuckeye.github.io/me/
 
 "Sun":
@@ -50,17 +74,9 @@
   - firstname: ["Nishant Vishwamitra","Nishant", "Vishwamitra"]
     url: https://nishantvishwamitra.github.io/
 
-"Cheng":
-  - firstname: ["Long Cheng","Long", "Cheng"]
-    url: https://people.computing.clemson.edu/~lcheng2/
-
 "Gu":
   - firstname: ["Guofei Gu","Guofei", "Gu"]
     url: https://people.engr.tamu.edu/guofei/index.html
-
-"Cho":
-  - firstname: ["Haehyun Cho","Haehyun", "Cho"]
-    url: https://haehyun.github.io/
 
 "Tu":
   - firstname: ["Huahong Tu","Huahong", "Tu"]
@@ -81,10 +97,6 @@
 "Yang":
   - firstname: ["Dejun Yang","Dejun", "Yang"]
     url: https://people.mines.edu/djyang/
-
-"Chen":
-  - firstname: ["Qi", "Qi Alfred", "Alfred", "Q.", "A."]
-    url: https://www.ics.uci.edu/~alfchen/
 
 "Luo":
   - firstname: ["Feng Luo","Feng", "Luo"]
@@ -109,14 +121,6 @@
 "Li":
   - firstname: ["Kang", "K,"]
     url: http://cobweb.cs.uga.edu/~kangli/
-
-"Chen":
-  - firstname: ["Jing Chen","Jing", "Chen"]
-    url: https://scholar.google.com/citations?user=MZ8wtusAAAAJ&hl=en
-
-"Chen":
-  - firstname: ["Kai Chen","Kai", "Chen"]
-    url: https://kaichen.org/
   
 "Wei":
   - firstname: ["Feng Wei","Feng", "Wei"]
@@ -173,10 +177,6 @@
 "Soneji":
   - firstname: ["Ananta Soneji","Ananta", "Soneji"]
     url: https://anantasoneji.com/
-
-"Caine":
-  - firstname: ["Kelly Caine","Kelly", "Caine"]
-    url: http://kellycaine.org/
 
 "Shen":
   - firstname: ["Junjie Shen","Shen", "Junjie"]
