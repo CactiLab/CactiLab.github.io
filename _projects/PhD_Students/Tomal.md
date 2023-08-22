@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  <font size = 4> Md. Armanuzzaman Tomal </font>
-description: Fall 2019 -
+description: Fall 2019 - <br />
 img: assets/img/members/tomal.jpg
 importance: 3
 category: PhD Students
