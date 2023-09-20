@@ -18,4 +18,4 @@ nav_order: 5
 
 - PI: Hanif Rahbari, Co-PI: Ziming Zhao. DoD. VSER - Vehicle Security Education and Research. $149,931, 2019 - 2020. 
 
-- PI: Gail-Joon Ahn, Co-PIs: Stephen Yau, Dijiang Huang, Adam Doupé, Ziming Zhao. NSF. Arizona Cyber Defense Scholarship. $4,998,009, 2019 - 2023. 
+- PI: Gail-Joon Ahn, Co-PIs: Stephen Yau, Adam Doupé, Ziming Zhao, Ruoyu Wang. NSF. Arizona Cyber Defense Scholarship. $3,997,784 + $299,990 (Supplement) = $4,297,774, 2017 - 2025. 
