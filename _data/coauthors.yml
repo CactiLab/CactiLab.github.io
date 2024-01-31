@@ -1,3 +1,5 @@
+# A
+
 "Ahn":
   - firstname: ["Gail-Joon"]
     url: https://www.public.asu.edu/~gahn1/
@@ -6,13 +8,18 @@
   - firstname: ["Md"]
     url: https://tomal-kuet.github.io/armanuzzaman/    
     
-"Bao":
-  - firstname: ["Tiffany"]
-    url: https://www.tiffanybao.com/ 
-    
+
+# B
+
 "Baek":
   - firstname: ["Jaejong"]
-    url: https://sites.google.com/view/jjbaek/home       
+    url: https://sites.google.com/view/jjbaek/home  
+
+"Bao":
+  - firstname: ["Tiffany"]
+    url: https://www.tiffanybao.com/      
+
+# C
 
 "Caine":
   - firstname: ["Kelly"]
@@ -34,6 +41,8 @@
   - firstname: ["Haehyun"]
     url: https://haehyun.github.io/    
 
+# D
+
 "Dixit":
   - firstname: ["Vaibhav Hemant", "Vaibhav"]
     url: https://vaibhavdixit.com/
@@ -41,7 +50,11 @@
 "Doupé":
   - firstname: ["Adam"]
     url: https://adamdoupe.com/
-    
+
+# E, F
+
+# G
+
 "Gu":
   - firstname: ["Guofei"]
     url: https://people.engr.tamu.edu/guofei/index.html   
@@ -51,7 +64,13 @@
     url: https://sduiseclab.github.io/profile/guoshanqing.html
   - firstname: ["Keyan"]
     url: https://keyanub.github.io/     
-        
+
+"Guan":
+  - firstname: ["Le"]
+    url: http://cobweb.cs.uga.edu/~leguan
+
+# H
+
 "Holt":
   - firstname: ["Thomas", "Thomas J."]
     url: https://cj.msu.edu/directory/holt-thomas.html
@@ -59,6 +78,27 @@
 "Hu":
   - firstname: ["Hongxin"]
     url: https://cse.buffalo.edu/~hongxinh/
+
+# I, J, 
+# K
+
+"Kambhampati":
+  - firstname: ["Subbarao"]
+    url: https://rakaposhi.eas.asu.edu/
+    
+"Kokulu":
+  - firstname: ["Faris Bugra", "Faris"]
+    url: https://bugrakokulu.com/#page-top
+    
+"Kruegel":
+  - firstname: ["Christopher"]
+    url: https://sites.cs.ucsb.edu/~chris/  
+
+"Kyung":
+  - firstname: ["Sukwha"]
+    url: https://sukwhakyung.com/about/
+
+# L
 
 "Lamp":
   - firstname: ["Josephine"]
@@ -73,75 +113,94 @@
 "Liao":
   - firstname: ["Kevin"]
     url: https://www.kevliao.com/ 
-    
+
+"Lin":
+  - firstname: ["Zhiqiang"]
+    url: https://web.cse.ohio-state.edu/~lin.3021/
+
 "Luo":
   - firstname: ["Feng"]
     url: https://people.computing.clemson.edu/~luofeng/  
-    
-"Sadeghi":     
-  - firstname: ["Ahmad-Reza"]
-    url: https://www.informatik.tu-darmstadt.de/systemsecurity/people_sys/people_details_sys_45184.en.jsp
-    
-"Shoshitaishvili":
-  - firstname: ["Yan"]
-    url: https://yancomm.net/
 
-"Sun":
-  - firstname: ["Zhibo"]
-    url: https://www.zhibosun.me/index.html
-    
-"Tan":
-  - firstname: ["Xi"]
-    url: https://mintancy.github.io/
+# M, N, 
 
+# O
 "Oest":
   - firstname: ["Adam"]
     url: https://www.adamoest.com/
 
-"Rubio-Medrano":
-  - firstname: ["Carlos", "Carlos E"]
-    url: https://carlosrubiomedrano.com/
-
-"Vishwamitra":
-  - firstname: ["Nishant"]
-    url: https://nishantvishwamitra.github.io/
-
-"Tu":
-  - firstname: ["Huahong"]
-    url: https://huahongtu.me/publications/   
-
-"Kambhampati":
-  - firstname: ["Subbarao"]
-    url: https://rakaposhi.eas.asu.edu/
-    
-"Kokulu":
-  - firstname: ["Faris Bugra", "Faris"]
-    url: https://bugrakokulu.com/#page-top
-    
-"Kruegel":
-  - firstname: ["Christopher"]
-    url: https://sites.cs.ucsb.edu/~chris/    
-    
-"Qiao":
-  - firstname: ["Chunming"]
-    url: https://cse.buffalo.edu/~qiao/index.htm
-    
-"Kyung":
-  - firstname: ["Sukwha"]
-    url: https://sukwhakyung.com/about/
+# P
 
 "Park":
   - firstname: ["Jinbum"]
     url: https://jinb-park.github.io/
 
-"Vigna":
-  - firstname: ["Giovanni"]
-    url: https://sites.cs.ucsb.edu/~vigna/
+"Pinto":
+  - firstname: ["Sandro"]
+    url: https://sandro2pinto.github.io/
+
+# Q
+
+"Qiao":
+  - firstname: ["Chunming"]
+    url: https://cse.buffalo.edu/~qiao/index.htm
+
+# R
+"Rubio-Medrano":
+  - firstname: ["Carlos", "Carlos E"]
+    url: https://carlosrubiomedrano.com/
+
+# S
+
+"Sadeghi":     
+  - firstname: ["Ahmad-Reza"]
+    url: https://www.informatik.tu-darmstadt.de/systemsecurity/people_sys/people_details_sys_45184.en.jsp
+
+"Shen":
+  - firstname: ["Junjie"]
+    url: https://www.junjieshen.com/
+
+"Shoshitaishvili":
+  - firstname: ["Yan"]
+    url: https://yancomm.net/
+
+"Soneji":
+  - firstname: ["Ananta"]
+    url: https://anantasoneji.com/
+
+"Sun":
+  - firstname: ["Zhibo"]
+    url: https://www.zhibosun.me/index.html
+
+# T
+
+"Tan":
+  - firstname: ["Xi"]
+    url: https://mintancy.github.io/
+
+"Tu":
+  - firstname: ["Huahong"]
+    url: https://huahongtu.me/publications/   
+
+# U
+
+
+# V
 
 "Vadlamudi":
   - firstname: ["Satya Gautam", "Satya"]
     url: https://sites.google.com/site/satyagautamv/
-    
+
+"Vigna":
+  - firstname: ["Giovanni"]
+    url: https://sites.cs.ucsb.edu/~vigna/
+
+"Vishwamitra":
+  - firstname: ["Nishant"]
+    url: https://nishantvishwamitra.github.io/
+
+# W
+
 "Wang":
   - firstname: ["Kuang-Ching"]
     url: https://www.clemson.edu/cecas/departments/ece/faculty_staff/faculty/kwang.html
@@ -157,18 +216,20 @@
 "Wu":
   - firstname: ["Cong"]
     url: https://www.cong-wu.com​
-  
-"Soneji":
-  - firstname: ["Ananta"]
-    url: https://anantasoneji.com/
 
-"Shen":
-  - firstname: ["Junjie"]
-    url: https://www.junjieshen.com/
-    
+# X
+
+"Xu":
+  - firstname: ["Jun"]
+    url: https://sites.google.com/view/junxzm
+
+# Y
+
 "Yang":
   - firstname: ["Dejun"]
     url: https://people.mines.edu/djyang/
+
+# Z
     
 "Zhang":
   - firstname: ["Ning"]
@@ -179,20 +240,3 @@
 "Ziarek":
   - firstname: ["Lukasz"]
     url: https://cse.buffalo.edu/~lziarek/
-
-
-"Pinto":
-  - firstname: ["Sandro"]
-    url: https://sandro2pinto.github.io/
-
-"Guan":
-  - firstname: ["Le"]
-    url: http://cobweb.cs.uga.edu/~leguan
-
-"Xu":
-  - firstname: ["Jun"]
-    url: https://sites.google.com/view/junxzm
-
-"Lin":
-  - firstname: ["Zhiqiang"]
-    url: https://web.cse.ohio-state.edu/~lin.3021/
