@@ -19,6 +19,10 @@
   - firstname: ["Tiffany"]
     url: https://www.tiffanybao.com/      
 
+"Baruah":
+  - firstname: ["Sanjoy"]
+    url: https://sites.wustl.edu/baruah/
+
 # C
 
 "Caine":
@@ -208,6 +212,10 @@
     url: https://ruoyuwang.me/
   - firstname: ["Ningfei"]
     url: http://me.ningfei.org/ 
+
+"Ward":
+  - firstname: ["Bryan C."]
+    url: https://my.vanderbilt.edu/bryancward/
     
 "Wei":
   - firstname: ["Feng"]
