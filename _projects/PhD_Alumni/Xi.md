@@ -1,10 +1,10 @@
 ---
 layout: page
 title: <font size = 4> Xi Tan </font> <br /> <br /> 
-description: Fall 2019 - <br />
+description: University at Buffalo, <br />2024 <br /> Assistant Professor at University of Colorado Colorado Springs
 img: assets/img/members/xi.jpg
 importance: 2
-category: PhD Students
+category: PhD Alumni
 redirect: https://mintancy.github.io/
 ---
 
