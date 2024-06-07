@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-- PI: Ziming Zhao. NSF. Collaborative Research: SaTC: CORE: Small: U.S.-Ireland R&D Partnership: Detecting Heterogeneous Malware for Internet-of-Things Systems. $231,490, 2024 - 2027. 
+- PI: Ziming Zhao. NSF. Collaborative Research: SaTC: CORE: Small: U.S.-Ireland R&D Partnership: Detecting Heterogeneous Malware for Internet-of-Things Systems. $231,490 (Total: $600,000), 2024 - 2027. 
 
 - PI: Ziming Zhao. NSF. CAREER: SaTC: Rethinking Trusted Execution Environments for Embedded and IoT Systems. $564,748, 2023 - 2028. 
 
