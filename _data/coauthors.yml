@@ -122,6 +122,10 @@
   - firstname: ["Kevin"]
     url: https://www.kevliao.com/ 
 
+"Liu":
+  - firstname: ["Yang"]
+    url: https://personal.ntu.edu.sg/yangliu/
+
 "Lin":
   - firstname: ["Zhiqiang"]
     url: https://web.cse.ohio-state.edu/~lin.3021/
@@ -231,16 +235,19 @@
 
 # X
 
-"Xu":
+"Xiang":
+  - firstname: ["Yang"]
+    url: https://nsclab.org/yang/
+"Xu":    
   - firstname: ["Jun"]
     url: https://sites.google.com/view/junxzm
-
+    
 # Y
 
 "Yang":
   - firstname: ["Dejun"]
     url: https://people.mines.edu/djyang/
-
+    
 # Z
     
 "Zhang":
