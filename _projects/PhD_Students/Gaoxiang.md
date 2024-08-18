@@ -3,6 +3,6 @@ layout: page
 title: <font size = 4> Gaoxiang Liu </font> <br /> <br /> 
 description: Spring 2023 - <br /> 
 img: assets/img/members/gaoxiang.png
-importance: 6
+importance: 2
 category: PhD Students
 ---

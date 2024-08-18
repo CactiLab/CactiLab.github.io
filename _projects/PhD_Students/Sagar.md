@@ -1,9 +1,9 @@
 ---
 layout: page
 title: <font size = 4> Sagar Mohan </font> <br> <br> 
-description: Fall 2023 - 
+description: Fall 2024 - 
 img: assets/img/members/sagar.jpg
-importance: 1
+importance: 4
 category: PhD Students
 ---
 
