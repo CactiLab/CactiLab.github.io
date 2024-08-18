@@ -1,9 +1,9 @@
 ---
 layout: page
 title:  <font size = 4> Md. Armanuzzaman Tomal </font>
-description: Fall 2019 - <br />
+description: University at Buffalo, <br />2024 <br /> 
 img: assets/img/members/tomal.jpg
 importance: 3
-category: PhD Students
+category: PhD Alumni
 redirect: https://tomal-kuet.github.io/armanuzzaman/
 ---
