@@ -21,4 +21,4 @@ The research of CactiLab has been supported by National Science Foundation (NSF)
 
 Please check out CactiLab's open-source projects on [GitHub](https://github.com/Cactilab) and open lectures on [YouTube](https://www.youtube.com/@zimingzhao6619/videos).
 
-CactiLab has multiple RA openings for Fall 2025. See the [ads](assets/pdf/ad2024.pdf)
+CactiLab has multiple RA openings starting Fall 2025. See the [ads](assets/pdf/ad2024.pdf)
