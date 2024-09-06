@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-5-13 00:00:00-0400
+date: 2024-7-13 00:00:00-0400
 inline: true
 ---
-[Paper] Our paper entitled "SoK: Where's the "up"?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems" will appear in **USENIX WOOT**'24!
+[Paper] Two papers "Moderating Illicit Online Image Promotion for Unsafe User Generated Content Games Using Large Vision Language Models" and "Unveiling IoT Security in Reality: A Firmware-Centric Journey" will appear in **USENIX Security**'24!
