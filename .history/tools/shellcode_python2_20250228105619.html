@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shellcode to Python2 Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 0;
+      gap: 10px;
+    }
+    textarea, input, select {
+      padding: 5px;
+    }
+    button {
+      padding: 5px 15px;
+      cursor: pointer;
+    }
+    .error {
+      color: red;
+      font-size: 0.9em;
+      display: none;
+      margin-left: 5px;
+    }
+    .drag-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .draggable {
+      padding: 5px;
+      margin: 3px;
+      cursor: pointer;
+      text-align: center;
+      width: 140px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+      border: 1px solid #ccc;
+    }
+    .draggable .padding-input,
+    .draggable .nop-input,
+    .draggable .slash-padding-input,
+    .draggable .parameter-input {
+      pointer-events: auto;
+      width: 40px;
+    }
+    /* 각 블록별 배경 색상 */
+    .buffer { background-color: lightblue; color: black; }
+    .ebp { background-color: lightgreen; color: black; }
+    .return { background-color: lightcoral; color: white; }
+    .padding { background-color: lightgoldenrodyellow; color: black; }
+    .shellcode { background-color: lightgray; color: black; }
+    .nop { background-color: #f3f3f3; color: black; }
+    .slash-padding { background-color: #dcdcdc; color: black; }
+    .parameter { background-color: lightpink; color: black; }
+
+    /* 빌더 영역: 새 블록이 위쪽에 쌓이도록 column-reverse 사용 */
+    #builder {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      min-height: 100px;
+      border: 2px dashed #000;
+      padding: 10px;
+      width: 60%;
+      margin-top: 10px;
+    }
+    #builder .block {
+      margin: 5px;
+      padding: 5px;
+      cursor: pointer;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #output {
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 5px;
+      white-space: pre-wrap;
+      margin-top: 10px;
+      word-break: break-all;
+      background-color: #f0f0f0;
+    }
+    #copyMessage {
+      color: green;
+      font-size: 0.9em;
+      display: none;
+      margin-top: 5px;
+    }
+    /* 버튼 클릭 시 활성화 표시 */
+    .active {
+      background-color: #ddd !important;
+      border: 2px solid #000 !important;
+    }
+  </style>
+</head>
+<body>
+  <h1>PYTHON2 SHELLCODE MAKER</h1>
+  <h2>Created by Junbeom In</h2>
+  <h3>2025</h3>
+  <div class="container">
+    <!-- Buffer Size -->
+    <div class="row">
+      <label>Buffer Size:</label>
+      <input type="number" id="bufferSize" value="16" min="0" oninput="generateShellcode()" />
+    </div>
+    <!-- Saved EBP -->
+    <div class="row">
+      <label>Saved EBP:</label>
+      <button id="ebp32Btn" onclick="setEBP('32')">32-bit</button>
+      <button id="ebp64Btn" onclick="setEBP('64')">64-bit</button>
+      <button id="ebpCustomBtn" onclick="setEBP('custom')">Custom</button>
+      <!-- oninput 속성을 추가 -->
+      <input type="text" id="savedEBP" placeholder="(Custom: \x??...)" disabled oninput="generateShellcode()" />
+      <span class="error" id="savedEBPError">Invalid format</span>
+    </div>
+    <!-- Return Address -->
+    <div class="row">
+      <label>Return Address:</label>
+      <button id="return32Btn" onclick="setReturn('32')">32-bit</button>
+      <button id="return64Btn" onclick="setReturn('64')">64-bit</button>
+      <button id="returnCustomBtn" onclick="setReturn('custom')">Custom</button>
+      <!-- oninput 속성을 추가 -->
+      <input type="text" id="returnAddr" placeholder="(Custom: \x??...)" disabled oninput="generateShellcode()" />
+      <span class="error" id="returnAddrError">Invalid format</span>
+    </div>
+    <!-- Shellcode -->
+    <div class="row">
+      <label>Shellcode:</label>
+      <textarea id="shellcode" placeholder="Enter shellcode (\x??...)" oninput="validateShellcode()"></textarea>
+      <span class="error" id="shellcodeError">Invalid format</span>
+      <!-- 실시간 바이트 수 표시 -->
+      <span id="shellcodeByteCount" style="margin-left: 10px;"></span>
+    </div>
+    <!-- 드래그 컨테이너 (클릭 시 블록이 빌더 영역에 추가됨) -->
+    <div class="drag-container">
+      <div class="draggable buffer" onclick="addBlock(event, this)" data-type="buffer">
+        Buffer
+      </div>
+      <div class="draggable ebp" onclick="addBlock(event, this)" data-type="ebp">
+        Saved EBP
+      </div>
+      <div class="draggable return" onclick="addBlock(event, this)" data-type="return">
+        Return Address
+      </div>
+      <div class="draggable padding" onclick="addBlock(event, this)" data-type="padding">
+        Random Padding 
+        <input type="number" class="padding-input" value="16" min="0" oninput="generateShellcode()" />
+      </div>
+      <div class="draggable shellcode" onclick="addBlock(event, this)" data-type="shellcode">
+        Shellcode
+      </div>
+      <div class="draggable nop" onclick="addBlock(event, this)" data-type="nop">
+        NOP Sled
+        <input type="number" class="nop-input" value="16" min="0" oninput="generateShellcode()" />
+      </div>
+      <!-- '/' Padding Block: NOP Sled과 동일하지만 '\x90' 대신 '/' 사용 -->
+      <div class="draggable slash-padding" onclick="addBlock(event, this)" data-type="slash-padding">
+        / Padding
+        <input type="number" class="slash-padding-input" value="16" min="0" oninput="generateShellcode()" />
+      </div>
+      <!-- Parameter Block: 32비트/64비트 Parameter용, 주소용 인풋 박스 포함 -->
+      <div class="draggable parameter" onclick="addBlock(event, this)" data-type="parameter">
+        Parameter
+        <input type="text" class="parameter-input" placeholder="(Custom: \x??...)" oninput="generateShellcode()" />
+      </div>
+    </div>
+    <!-- 빌더 영역 -->
+    <div id="builder"></div>
+    <br />
+    <p>Generated Command:</p>
+    <pre id="output"></pre>
+    <br />
+    <button onclick="copyToClipboard()">Copy</button>
+    <button onclick="clearBuilder()">Clear</button>
+    <div id="copyMessage">Copied!</div>
+  </div>
+
+  <script>
+    // \x00 형식의 정규표현식 (2자리 16진수 1쌍씩)
+    const validFormatRegex = /^(\\x[0-9A-Fa-f]{2})+$/;
+
+    // Saved EBP 버튼 처리
+    function setEBP(bit) {
+      const savedEBP = document.getElementById("savedEBP");
+      const errorSpan = document.getElementById("savedEBPError");
+      const ebp32Btn = document.getElementById("ebp32Btn");
+      const ebp64Btn = document.getElementById("ebp64Btn");
+      const ebpCustomBtn = document.getElementById("ebpCustomBtn");
+      [ebp32Btn, ebp64Btn, ebpCustomBtn].forEach(btn => btn.classList.remove("active"));
+      errorSpan.style.display = "none";
+      if (bit === "32") {
+        savedEBP.value = "'B'*4";
+        savedEBP.disabled = true;
+        savedEBP.dataset.bit = "32";
+        ebp32Btn.classList.add("active");
+      } else if (bit === "64") {
+        savedEBP.value = "'B'*8";
+        savedEBP.disabled = true;
+        savedEBP.dataset.bit = "64";
+        ebp64Btn.classList.add("active");
+      } else {
+        savedEBP.value = "";
+        savedEBP.disabled = false;
+        savedEBP.dataset.bit = "custom";
+        ebpCustomBtn.classList.add("active");
+      }
+      generateShellcode();
+    }
+
+    // Return Address 버튼 처리
+    function setReturn(bit) {
+      const returnAddr = document.getElementById("returnAddr");
+      const errorSpan = document.getElementById("returnAddrError");
+      const return32Btn = document.getElementById("return32Btn");
+      const return64Btn = document.getElementById("return64Btn");
+      const returnCustomBtn = document.getElementById("returnCustomBtn");
+      [return32Btn, return64Btn, returnCustomBtn].forEach(btn => btn.classList.remove("active"));
+      errorSpan.style.display = "none";
+      if (bit === "32") {
+        returnAddr.value = "'C'*4";
+        returnAddr.disabled = true;
+        returnAddr.dataset.bit = "32";
+        return32Btn.classList.add("active");
+      } else if (bit === "64") {
+        returnAddr.value = "'C'*8";
+        returnAddr.disabled = true;
+        returnAddr.dataset.bit = "64";
+        return64Btn.classList.add("active");
+      } else {
+        returnAddr.value = "";
+        returnAddr.disabled = false;
+        returnAddr.dataset.bit = "custom";
+        returnCustomBtn.classList.add("active");
+      }
+      generateShellcode();
+    }
+
+    // Shellcode 유효성 검사 및 바이트 수 계산
+    function validateShellcode() {
+      const shellcode = document.getElementById("shellcode").value.trim();
+      const errorSpan = document.getElementById("shellcodeError");
+      const byteCountSpan = document.getElementById("shellcodeByteCount");
+
+      if (shellcode !== "" && !validFormatRegex.test(shellcode)) {
+        errorSpan.style.display = "inline";
+      } else {
+        errorSpan.style.display = "none";
+      }
+
+      let matches = shellcode.match(/\\x[0-9A-Fa-f]{2}/g);
+      let length = matches ? matches.length : 0;
+      byteCountSpan.textContent = `Bytes: ${length}`;
+
+      generateShellcode();
+    }
+
+    // custom 입력 필드 유효성 검사 (Saved EBP, Return Address, Parameter Block 등)
+    function validateCustomField(value) {
+      return value === "" || validFormatRegex.test(value);
+    }
+
+    // 블록 추가 (내부 input 클릭은 삭제되지 않도록)
+    function addBlock(e, element) {
+      if (e.target.tagName.toLowerCase() === "input") return;
+      const clone = element.cloneNode(true);
+      clone.classList.add("block");
+      clone.onclick = function(ev) {
+        if (ev.target.tagName.toLowerCase() !== "input") {
+          this.remove();
+          generateShellcode();
+        }
+      };
+      document.getElementById("builder").appendChild(clone);
+      generateShellcode();
+    }
+
+    // 블록별 명령어 생성
+    function getBlockValue(block) {
+      const type = block.dataset.type;
+      let content = "";
+      switch (type) {
+        case "buffer": {
+          const bufSize = document.getElementById("bufferSize").value;
+          content = "'A'*" + bufSize;
+          break;
+        }
+        case "ebp": {
+          const savedEBP = document.getElementById("savedEBP");
+          if (savedEBP.disabled && savedEBP.dataset.bit !== "custom") {
+            content = savedEBP.dataset.bit === "32" ? "'B'*4" : "'B'*8";
+          } else {
+            const val = savedEBP.value.trim();
+            if (!validateCustomField(val)) return "";
+            content = "'" + val + "'";
+          }
+          break;
+        }
+        case "return": {
+          const returnAddr = document.getElementById("returnAddr");
+          if (returnAddr.disabled && returnAddr.dataset.bit !== "custom") {
+            content = returnAddr.dataset.bit === "32" ? "'C'*4" : "'C'*8";
+          } else {
+            const val = returnAddr.value.trim();
+            if (!validateCustomField(val)) return "";
+            content = "'" + val + "'";
+          }
+          break;
+        }
+        case "padding": {
+          const paddingInput = block.querySelector(".padding-input");
+          const padVal = paddingInput ? paddingInput.value : "0";
+          content = "'D'*" + padVal;
+          break;
+        }
+        case "shellcode": {
+          const shell = document.getElementById("shellcode").value.trim();
+          if (shell !== "" && !validFormatRegex.test(shell)) {
+            return "";
+          }
+          content = "'" + shell + "'";
+          break;
+        }
+        case "nop": {
+          const nopInput = block.querySelector(".nop-input");
+          const nopVal = nopInput ? nopInput.value : "0";
+          content = "'\\x90'*" + nopVal;
+          break;
+        }
+        case "slash-padding": {
+          const slashInput = block.querySelector(".slash-padding-input");
+          const slashVal = slashInput ? slashInput.value : "0";
+          content = "'/'*" + slashVal;
+          break;
+        }
+        case "parameter": {
+          const paramInput = block.querySelector(".parameter-input");
+          const paramVal = paramInput ? paramInput.value.trim() : "";
+          // if (!validateCustomField(paramVal)) return "";
+          content = "'" + paramVal + "'";
+          break;
+        }
+        default:
+          content = "''";
+      }
+      return content;
+    }
+
+    // 최종 명령어 생성: 블록 순서대로 " + "로 연결
+    function generateShellcode() {
+      const builder = document.getElementById("builder");
+      const blocks = Array.from(builder.children);
+      let parts = [];
+      for (let block of blocks) {
+        let part = getBlockValue(block);
+        if (part === "") {
+          document.getElementById("output").innerText = "Error: Invalid input detected.";
+          return;
+        }
+        parts.push(part);
+      }
+      const command = "python2 -c \"print " + parts.join(" + ") + "\"";
+      document.getElementById("output").innerText = command;
+    }
+
+    // 명령어 복사
+    function copyToClipboard() {
+      const output = document.getElementById("output").innerText;
+      navigator.clipboard.writeText(output);
+      const copyMsg = document.getElementById("copyMessage");
+      copyMsg.style.display = "block";
+      setTimeout(() => { copyMsg.style.display = "none"; }, 2000);
+    }
+
+    // 빌더 초기화
+    function clearBuilder() {
+      document.getElementById("builder").innerHTML = "";
+      generateShellcode();
+    }
+
+    // 페이지 로딩 시 기본값 설정
+    document.addEventListener("DOMContentLoaded", function() {
+      setEBP('32');
+      setReturn('32');
+      validateShellcode();
+      generateShellcode();
+    });
+  </script>
+</body>
+</html>
