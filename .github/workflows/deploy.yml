@@ -23,9 +23,9 @@ jobs:
         bundler-cache: true
     - name: Install deps
       run: |
-          gem install bundler
-          bundle update --bundler
-          bundle install        
+        gem install bundler
+        bundle update --bundler
+        bundle install        
         npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
