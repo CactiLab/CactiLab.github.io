@@ -23,9 +23,9 @@ jobs:
         bundler-cache: true
     - name: Install deps
       run: |
-        gem uninstall -i $(ruby -e 'puts Gem.default_dir') -aIx bundler || true
-        gem install bundler -v 2.4.22
-        bundle _2.4.22_ install
+        gem install bundler
+        bundle update --bundler
+        bundle install        
         npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
