@@ -7,6 +7,7 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 
 nav: true
 nav_order: 3
 ---
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
@@ -16,3 +17,4 @@ nav_order: 3
 {% endfor %}
 
 </div>
+
