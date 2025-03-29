@@ -6,7 +6,6 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: CyberspACe securiTy and forensIcs lab (CactiLab)
 middle_name:
 last_name:
-contact_note: >
   
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   CactiLab is in the [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](https://www.northeastern.edu/).
