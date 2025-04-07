@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: CyberspACe securiTy and forensIcs lab (CactiLab)
+title: CyberspACe securiTy and forensIcs lab (CactiLab) # the website title (if blank, full name will be used instead)
+first_name:
 middle_name:
 last_name:
 contact_note: >
@@ -13,14 +13,16 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-# icon: favicon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://cactilab.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
-
+logo: /assets/img/favicon.png
+navbar_brand:
+  text: CactiLab  # 텍스트로 표시할 경우
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -237,7 +239,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+ # - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
