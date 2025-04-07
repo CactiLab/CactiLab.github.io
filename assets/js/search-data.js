@@ -170,6 +170,16 @@ ninja.data = [{
           description: "KV NITA, India   August, 2021 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/High_School_Students/Puhabi/";
+            },},{id: "projects-massimo-brigola",
+          title: 'Massimo Brigola',
+          description: "Spring 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students/massimo/";
+            },},{id: "projects-swadeep",
+          title: 'Swadeep',
+          description: "Spring 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students/swadeep/";
             },},{id: "projects-ariel-shevah",
           title: 'Ariel Shevah',
           description: "Spring 2021",
@@ -265,6 +275,11 @@ ninja.data = [{
           description: "Co-advised with Zhuoyue Zhao  Spring 2023 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Students/Gaoxiang/";
+            },},{id: "projects-junbeom-in",
+          title: 'Junbeom In',
+          description: "Fall 2024 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PhD_Students/Jun/";
             },},{id: "projects-sagar-mohan",
           title: 'Sagar Mohan',
           description: "Fall 2024 -",
