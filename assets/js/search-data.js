@@ -265,11 +265,6 @@ ninja.data = [{
           description: "University at Buffalo, 2024  Assistant Professor at University of Colorado Colorado Springs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Alumni/Xi/";
-            },},{id: "projects-alex-eastman",
-          title: 'Alex Eastman',
-          description: "Fall 2023 -",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/PhD_Students/Alex/";
             },},{id: "projects-gaoxiang-liu",
           title: 'Gaoxiang Liu',
           description: "Co-advised with Zhuoyue Zhao  Spring 2023 -",
@@ -305,6 +300,16 @@ ninja.data = [{
           description: "University at Buffalo, 2024  Postdoc at Northeastern University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Postdocs/Tomal/";
+            },},{id: "projects-dikshit-khandelwal",
+          title: 'Dikshit Khandelwal',
+          description: "Fall 2021",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Undergraduate_Alumni/Dikshit/";
+            },},{id: "projects-elijah-sippel",
+          title: 'Elijah Sippel',
+          description: "Summer 2023 from UMass Amherst",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Undergraduate_Alumni/Elijah/";
             },},{id: "projects-emil-kovacev",
           title: 'Emil Kovacev',
           description: "Fall 2021",
@@ -320,6 +325,16 @@ ninja.data = [{
           description: "Summer 2019 - Fall 2019, RIT",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Undergraduate_Alumni/Eric_Scheler/";
+            },},{id: "projects-junzhe-li",
+          title: 'Junzhe Li',
+          description: "Fall 2021",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Undergraduate_Alumni/Junzhe/";
+            },},{id: "projects-kayla-yan",
+          title: 'Kayla Yan',
+          description: "Summer 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Undergraduate_Alumni/Kayla/";
             },},{id: "projects-paulina-davison",
           title: 'Paulina Davison',
           description: "2018, ASU",
@@ -330,26 +345,6 @@ ninja.data = [{
           description: "Summer 2022 from ASU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Undergraduate_Alumni/XIxian/";
-            },},{id: "projects-dikshit-khandelwal",
-          title: 'Dikshit Khandelwal',
-          description: "Fall 2021",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Undergraduate_Students/Dikshit/";
-            },},{id: "projects-elijah-sippel",
-          title: 'Elijah Sippel',
-          description: "Summer 2023 from UMass Amherst",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Undergraduate_Students/Elijah/";
-            },},{id: "projects-junzhe-li",
-          title: 'Junzhe Li',
-          description: "Fall 2021",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Undergraduate_Students/Junzhe/";
-            },},{id: "projects-kayla-yan",
-          title: 'Kayla Yan',
-          description: "Summer 2024",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Undergraduate_Students/Kayla/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
