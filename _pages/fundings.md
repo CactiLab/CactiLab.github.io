@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-- Lead PI: Ziming Zhao, Co-PIs: Matilde Sanchez-Pena, Hongxin Hu, Jinjun Xiong. NSF. Collaborative Research: SaTC: EDU: Enhancing IoT Software and System Security Education with Student-centered Pedagogy and Next Generation Capture-the-Flag Platform. &#36;450,000 (Total: &#36;500,000), 2024 - 2027. 
+- Lead PI: Ziming Zhao, Co-PIs: Matilde Sanchez-Pena, Hongxin Hu, Jinjun Xiong. NSF. Collaborative Research: SaTC: EDU: Enhancing IoT Software and System Security Education with Student-centered Pedagogy and Next Generation Capture-the-Flag Platform. <span>$450,000</span> (Total: <span>$500,000</span>), 2024 - 2027. 
 
 - PI: Ziming Zhao. NSF. Collaborative Research: SaTC: CORE: Small: U.S.-Ireland R&D Partnership: Detecting Heterogeneous Malware for Internet-of-Things Systems. &#36;231,490 (Total: &#36;600,000), 2024 - 2027. 
 
