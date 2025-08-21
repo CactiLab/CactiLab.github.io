@@ -6,6 +6,8 @@ nav: true
 nav_order: 5
 ---
 
+- PI: Ziming Zhao, Co-PI: Engin Kirda. NSF. SaTC: CORE: Small: HOLMES: Holistic and Hardware-assisted Control-Flow Security for Microcontroller Systems. <span>$500,000</span>, 2025 - 2028. 
+
 - Lead PI: Ziming Zhao, Co-PIs: Matilde Sanchez-Pena, Hongxin Hu, Jinjun Xiong. NSF. Collaborative Research: SaTC: EDU: Enhancing IoT Software and System Security Education with Student-centered Pedagogy and Next Generation Capture-the-Flag Platform. <span>$450,000</span> (Total: <span>$500,000</span>), 2024 - 2027. 
 
 - PI: Ziming Zhao. NSF. Collaborative Research: SaTC: CORE: Small: U.S.-Ireland R&D Partnership: Detecting Heterogeneous Malware for Internet-of-Things Systems. <span>231,490</span> (Total: <span>600,000</span>), 2024 - 2027. 
