@@ -167,17 +167,12 @@ ninja.data = [{
           title: 'Atharva Shaligram',
           description: "Brighton High School in Rochester, New York  April, 2021 -",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/High_School_Students/Atharva/";
+              window.location.href = "/projects/High_School_Students_Alumni/Atharva/";
             },},{id: "projects-puhabi-chakraborti",
           title: 'Puhabi Chakraborti',
           description: "KV NITA, India   August, 2021 -",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/High_School_Students/Puhabi/";
-            },},{id: "projects-massimo-brigola",
-          title: 'Massimo Brigola',
-          description: "Spring 2025",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Master_Students/massimo/";
+              window.location.href = "/projects/High_School_Students_Alumni/Puhabi/";
             },},{id: "projects-swadeep",
           title: 'Swadeep',
           description: "Spring 2025",
@@ -248,6 +243,11 @@ ninja.data = [{
           description: "Fall 2022 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Master_Students_Alumni/Victoria/";
+            },},{id: "projects-massimo-brigola",
+          title: 'Massimo Brigola',
+          description: "Spring 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students_Alumni/massimo/";
             },},{id: "projects-cong-wu",
           title: 'Cong Wu',
           description: "Wuhan University, 2022  Co-advised with Jing Chen  Postdoc at The University of Hong Kong",
@@ -255,7 +255,7 @@ ninja.data = [{
               window.location.href = "/projects/PhD_Alumni/Cong/";
             },},{id: "projects-md-armanuzzaman-tomal",
           title: 'Md. Armanuzzaman Tomal',
-          description: "University at Buffalo, 2024  Postdoc at Northeastern University",
+          description: "University at Buffalo, 2024  Assistant Professor at The University of Texas at El Paso",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Alumni/Tomal/";
             },},{id: "projects-wonkyu-han",
@@ -283,6 +283,11 @@ ninja.data = [{
           description: "Fall 2024 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Students/Sagar/";
+            },},{id: "projects-xiaocong-zhang",
+          title: 'Xiaocong Zhang',
+          description: "Fall 2025 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PhD_Students/Xiaocong/";
             },},{id: "projects-zheyuan-ma",
           title: 'Zheyuan Ma',
           description: "Fall 2021 -",
