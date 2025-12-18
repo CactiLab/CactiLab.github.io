@@ -7,6 +7,8 @@ nav_order: 5
 ---
 - PI: Ziming Zhao, Co-PI: Aanjhan Ranganathan. Amazon Research Award. Understanding How LLMs Hack: Interpretable Vulnerability Detection and Remediation. 2025 - 2026.
 
+- PI: Ziming Zhao. Enabling Trusted Execution on Octavo FPGA Systems. Octavo Systems, LLC. unrestricted gift.
+
 - PI: Ziming Zhao, Co-PI: Engin Kirda. NSF. SaTC: CORE: Small: HOLMES: Holistic and Hardware-assisted Control-Flow Security for Microcontroller Systems. 2025 - 2028. 
 
 - Lead PI: Ziming Zhao, Co-PIs: Matilde Sanchez-Pena, Hongxin Hu, Jinjun Xiong. NSF. Collaborative Research: SaTC: EDU: Enhancing IoT Software and System Security Education with Student-centered Pedagogy and Next Generation Capture-the-Flag Platform. 2024 - 2027. 
