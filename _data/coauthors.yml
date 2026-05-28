@@ -15,10 +15,6 @@
   - firstname: ["Jaejong"]
     url: https://sites.google.com/view/jjbaek/home  
 
-"ban":
-  - firstname: ["Tao"]
-    url: https://csl.nict.go.jp/en/people/tao-ban.html
-
 "bao":
   - firstname: ["Tiffany"]
     url: https://www.tiffanybao.com/      
@@ -50,10 +46,6 @@
     url: https://haehyun.github.io/    
 
 # D
-
-"chowdhury":
-  - firstname: ["Mashrur"]
-    url: https://www.clemson.edu/cecas/departments/ce/people/faculty/chowdhury.html
 
 "dixit":
   - firstname: ["Vaibhav Hemant", "Vaibhav"]
@@ -226,10 +218,6 @@
     url: https://cse.buffalo.edu/~qiao/index.htm
 
 # R
-"qin":
-  - firstname: ["Shengchao"]
-    url: https://scqin.github.io/
-
 "rubio-medrano":
   - firstname: ["Carlos", "Carlos E"]
     url: https://carlosrubiomedrano.com/
@@ -243,10 +231,6 @@
 "sato":
   - firstname: ["Takami"]
     url: https://tkm2261.github.io/
-
-"shen":
-  - firstname: ["Junjie"]
-    url: https://www.junjieshen.com/
 
 "shoshitaishvili":
   - firstname: ["Yan"]
@@ -299,7 +283,7 @@
 
 "walls":
   - firstname: ["Robert"]
-    url: https://robert.walls.ninja/
+    url: https://www.wpi.edu/people/faculty/rjwalls
 
 "wang":
   - firstname: ["Kuang-Ching"]
@@ -322,8 +306,6 @@
     url: https://www.cong-wu.com
   - firstname: ["Ruoyu"]
     url: https://wuruoyu.github.io/
-  - firstname: ["Yueming"]
-    url: https://wu-yueming.github.io/
 
 # X
 
