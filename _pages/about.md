@@ -26,6 +26,6 @@ CactiLab is in the [Khoury College of Computer Sciences](https://www.khoury.nort
 
 Prof. [Ziming Zhao](https://zzm7000.github.io/) is the director of CactiLab. He received a PhD degree in Computer Science from the Arizona State University. Research outcomes of CactiLab have appeared in top-tier security conferences and journals, including IEEE S&P, USENIX Security, CCS, NDSS, DAC, MobiSys, RTAS, IMWUT, ACSAC, ESORICS, TISSEC/TOPS, TDSC, TIFS, etc.
 
-The research of CactiLab has been supported by National Science Foundation (NSF), National Centers of Academic Excellence in Cybersecurity (NCAE-C), and Department of Defense (DoD).
+The research of CactiLab has been supported by National Science Foundation (NSF), ARPA-H, National Centers of Academic Excellence in Cybersecurity (NCAE-C), Amazon Research and Department of Defense (DoD).
 
 Please check out CactiLab's open-source projects on [GitHub](https://github.com/Cactilab) and open lectures on [YouTube](https://www.youtube.com/@zimingzhao6619/videos).
