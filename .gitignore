@@ -11,3 +11,7 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Claude Code artifacts (specs, plans, scratch files) — local only
+docs/superpowers/
+.claude/

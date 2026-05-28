@@ -1,35 +1,35 @@
 # A
 
-"Ahn":
+"ahn":
   - firstname: ["Gail-Joon"]
     url: https://www.public.asu.edu/~gahn1/
     
-"Armanuzzaman":
+"armanuzzaman":
   - firstname: ["Md"]
     url: https://tomal-kuet.github.io/armanuzzaman/    
     
 
 # B
 
-"Baek":
+"baek":
   - firstname: ["Jaejong"]
     url: https://sites.google.com/view/jjbaek/home  
 
-"Bao":
+"bao":
   - firstname: ["Tiffany"]
     url: https://www.tiffanybao.com/      
 
-"Baruah":
+"baruah":
   - firstname: ["Sanjoy"]
     url: https://sites.wustl.edu/baruah/
 
 # C
 
-"Caine":
+"caine":
   - firstname: ["Kelly"]
     url: http://kellycaine.org/
 
-"Chen":
+"chen":
   - firstname: ["Jing"]
     url: https://scholar.google.com/citations?user=MZ8wtusAAAAJ&hl=en
   - firstname: ["Kai"]
@@ -37,160 +37,160 @@
   - firstname: ["Qi", "Qi Alfred"]
     url: https://www.ics.uci.edu/~alfchen/
 
-"Cheng":
+"cheng":
   - firstname: ["Long"]
     url: https://people.computing.clemson.edu/~lcheng2/    
     
-"Cho":
+"cho":
   - firstname: ["Haehyun"]
     url: https://haehyun.github.io/    
 
 # D
 
-"Dixit":
+"dixit":
   - firstname: ["Vaibhav Hemant", "Vaibhav"]
     url: https://vaibhavdixit.com/
     
-"Doupé":
+"doupe":
   - firstname: ["Adam"]
     url: https://adamdoupe.com/
 
 # E, F
 
-"Freeman":
+"freeman":
   - firstname: ["Guo"]
     url: https://guof.people.clemson.edu/
     
 # G
 
-"Gu":
+"gu":
   - firstname: ["Guofei"]
     url: https://people.engr.tamu.edu/guofei/index.html   
     
-"Guo":
+"guo":
   - firstname: ["Shanqing"]
     url: https://sduiseclab.github.io/profile/guoshanqing.html
   - firstname: ["Keyan"]
     url: https://keyanub.github.io/     
 
-"Guan":
+"guan":
   - firstname: ["Le"]
     url: http://cobweb.cs.uga.edu/~leguan
 
 # H
 
-"Holt":
+"holt":
   - firstname: ["Thomas", "Thomas J."]
     url: https://cj.msu.edu/directory/holt-thomas.html
     
-"Hu":
+"hu":
   - firstname: ["Hongxin"]
     url: https://cse.buffalo.edu/~hongxinh/
 
 # I, J, 
 # K
 
-"Kambhampati":
+"kambhampati":
   - firstname: ["Subbarao"]
     url: https://rakaposhi.eas.asu.edu/
     
-"Kokulu":
+"kokulu":
   - firstname: ["Faris Bugra", "Faris"]
     url: https://bugrakokulu.com/#page-top
     
-"Kruegel":
+"kruegel":
   - firstname: ["Christopher"]
     url: https://sites.cs.ucsb.edu/~chris/  
 
-"Kyung":
+"kyung":
   - firstname: ["Sukwha"]
     url: https://sukwhakyung.com/about/
 
 # L
 
-"Lamp":
+"lamp":
   - firstname: ["Josephine"]
     url: https://www.josephinelamp.com/
 
-"Li":
+"li":
   - firstname: ["Hongda"]
     url: http://web.hongdal.net/
   - firstname: ["Kang"]
     url: http://cobweb.cs.uga.edu/~kangli/
     
-"Liao":
+"liao":
   - firstname: ["Kevin"]
     url: https://www.kevliao.com/ 
 
-"Liu":
+"liu":
   - firstname: ["Yang"]
     url: https://personal.ntu.edu.sg/yangliu/
 
-"Lin":
+"lin":
   - firstname: ["Zhiqiang"]
     url: https://web.cse.ohio-state.edu/~lin.3021/
 
-"Luo":
+"luo":
   - firstname: ["Feng"]
     url: https://people.computing.clemson.edu/~luofeng/  
 
 # M, N, 
 
 # O
-"Oest":
+"oest":
   - firstname: ["Adam"]
     url: https://www.adamoest.com/
 
 # P
 
-"Park":
+"park":
   - firstname: ["Jinbum"]
     url: https://jinb-park.github.io/
 
-"Pinto":
+"pinto":
   - firstname: ["Sandro"]
     url: https://sandro2pinto.github.io/
 
 # Q
 
-"Qiao":
+"qiao":
   - firstname: ["Chunming"]
     url: https://cse.buffalo.edu/~qiao/index.htm
 
 # R
-"Rubio-Medrano":
+"rubio-medrano":
   - firstname: ["Carlos", "Carlos E"]
     url: https://carlosrubiomedrano.com/
 
 # S
 
-"Sadeghi":     
+"sadeghi":     
   - firstname: ["Ahmad-Reza"]
     url: https://www.informatik.tu-darmstadt.de/systemsecurity/people_sys/people_details_sys_45184.en.jsp
 
-"Shen":
+"shen":
   - firstname: ["Junjie"]
     url: https://www.junjieshen.com/
 
-"Shoshitaishvili":
+"shoshitaishvili":
   - firstname: ["Yan"]
     url: https://yancomm.net/
 
-"Soneji":
+"soneji":
   - firstname: ["Ananta"]
     url: https://anantasoneji.com/
 
-"Sun":
+"sun":
   - firstname: ["Zhibo"]
     url: https://www.zhibosun.me/index.html
 
 # T
 
-"Tan":
+"tan":
   - firstname: ["Xi"]
     url: https://mintancy.github.io/
 
-"Tu":
+"tu":
   - firstname: ["Huahong"]
     url: https://huahongtu.me/publications/   
 
@@ -199,21 +199,21 @@
 
 # V
 
-"Vadlamudi":
+"vadlamudi":
   - firstname: ["Satya Gautam", "Satya"]
     url: https://sites.google.com/site/satyagautamv/
 
-"Vigna":
+"vigna":
   - firstname: ["Giovanni"]
     url: https://sites.cs.ucsb.edu/~vigna/
 
-"Vishwamitra":
+"vishwamitra":
   - firstname: ["Nishant"]
     url: https://nishantvishwamitra.github.io/
 
 # W
 
-"Wang":
+"wang":
   - firstname: ["Kuang-Ching"]
     url: https://www.clemson.edu/cecas/departments/ece/faculty_staff/faculty/kwang.html
   - firstname: ["Ruoyu"]
@@ -221,41 +221,41 @@
   - firstname: ["Ningfei"]
     url: http://me.ningfei.org/ 
 
-"Ward":
+"ward":
   - firstname: ["Bryan C."]
     url: https://my.vanderbilt.edu/bryancward/
     
-"Wei":
+"wei":
   - firstname: ["Feng"]
     url: https://akafengfeng.github.io/
 
-"Wu":
+"wu":
   - firstname: ["Cong"]
     url: https://www.cong-wu.com​
 
 # X
 
-"Xiang":
+"xiang":
   - firstname: ["Yang"]
     url: https://nsclab.org/yang/
-"Xu":    
+"xu":    
   - firstname: ["Jun"]
     url: https://sites.google.com/view/junxzm
     
 # Y
 
-"Yang":
+"yang":
   - firstname: ["Dejun"]
     url: https://people.mines.edu/djyang/
     
 # Z
     
-"Zhang":
+"zhang":
   - firstname: ["Ning"]
     url: https://cybersecurity.seas.wustl.edu/ning/index.html
   - firstname: ["Penghui"]
     url: https://formerbuckeye.github.io/me/    
 
-"Ziarek":
+"ziarek":
   - firstname: ["Lukasz"]
     url: https://cse.buffalo.edu/~lziarek/
