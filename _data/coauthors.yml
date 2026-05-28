@@ -15,6 +15,10 @@
   - firstname: ["Jaejong"]
     url: https://sites.google.com/view/jjbaek/home  
 
+"ban":
+  - firstname: ["Tao"]
+    url: https://csl.nict.go.jp/en/people/tao-ban.html
+
 "bao":
   - firstname: ["Tiffany"]
     url: https://www.tiffanybao.com/      
@@ -47,6 +51,10 @@
 
 # D
 
+"chowdhury":
+  - firstname: ["Mashrur"]
+    url: https://www.clemson.edu/cecas/departments/ce/people/faculty/chowdhury.html
+
 "dixit":
   - firstname: ["Vaibhav Hemant", "Vaibhav"]
     url: https://vaibhavdixit.com/
@@ -72,12 +80,18 @@
     url: https://sduiseclab.github.io/profile/guoshanqing.html
   - firstname: ["Keyan"]
     url: https://keyanub.github.io/     
+  - firstname: ["Yanan"]
+    url: https://yananguo.com/
 
 "guan":
   - firstname: ["Le"]
     url: http://cobweb.cs.uga.edu/~leguan
 
 # H
+
+"he":
+  - firstname: ["Kun"]
+    url: http://cse.whu.edu.cn/index.php?s=/home/szdw/detail/id/58.html
 
 "holt":
   - firstname: ["Thomas", "Thomas J."]
@@ -90,10 +104,22 @@
 # I, J, 
 # K
 
+"jiang":
+  - firstname: ["Hongbo"]
+    url: https://hongbojiang2004.github.io/en/
+
+"jing":
+  - firstname: ["Yiming"]
+    url: https://yimingjing.com/
+
 "kambhampati":
   - firstname: ["Subbarao"]
     url: https://rakaposhi.eas.asu.edu/
     
+"kirda":
+  - firstname: ["Engin"]
+    url: https://www.ccs.neu.edu/home/ek/
+
 "kokulu":
   - firstname: ["Faris Bugra", "Faris"]
     url: https://bugrakokulu.com/#page-top
@@ -112,19 +138,33 @@
   - firstname: ["Josephine"]
     url: https://www.josephinelamp.com/
 
+"lee":
+  - firstname: ["Kyu Hyung"]
+    url: https://kyuhlee.github.io/
+
+"leitner":
+  - firstname: ["Maria"]
+    url: https://marialeitner.org/
+
 "li":
   - firstname: ["Hongda"]
     url: http://web.hongdal.net/
   - firstname: ["Kang"]
     url: http://cobweb.cs.uga.edu/~kangli/
     
+  - firstname: ["Hongwei"]
+    url: https://faculty.uestc.edu.cn/lihongwei/en/index.htm
 "liao":
   - firstname: ["Kevin"]
     url: https://www.kevliao.com/ 
+  - firstname: ["Song"]
+    url: https://songacademic.github.io/
 
 "liu":
   - firstname: ["Yang"]
     url: https://personal.ntu.edu.sg/yangliu/
+  - firstname: ["Gaoxiang"]
+    url: https://cse.buffalo.edu/adblab/people/gliu25/
 
 "lin":
   - firstname: ["Zhiqiang"]
@@ -137,6 +177,34 @@
 # M, N, 
 
 # O
+"ma":
+  - firstname: ["Zheyuan"]
+    url: https://andyma.zeabur.app/
+
+"mabey":
+  - firstname: ["Mike", "Michael"]
+    url: https://www.mikemabey.com/
+
+"mao":
+  - firstname: ["Bing"]
+    url: https://cs.nju.edu.cn/cs_en/96/9b/c55069a628379/page.htm
+
+"martinez del rincon":
+  - firstname: ["Jesus"]
+    url: https://pure.qub.ac.uk/en/persons/jesus-martinez-del-rincon/
+
+"mclaughlin":
+  - firstname: ["Niall"]
+    url: https://pure.qub.ac.uk/en/persons/niall-mclaughlin/
+
+"mi":
+  - firstname: ["Xianghang"]
+    url: https://xianghang.me/
+
+"miller":
+  - firstname: ["Paul"]
+    url: https://pure.qub.ac.uk/en/persons/paul-miller/
+
 "oest":
   - firstname: ["Adam"]
     url: https://www.adamoest.com/
@@ -158,6 +226,10 @@
     url: https://cse.buffalo.edu/~qiao/index.htm
 
 # R
+"qin":
+  - firstname: ["Shengchao"]
+    url: https://scqin.github.io/
+
 "rubio-medrano":
   - firstname: ["Carlos", "Carlos E"]
     url: https://carlosrubiomedrano.com/
@@ -167,6 +239,10 @@
 "sadeghi":     
   - firstname: ["Ahmad-Reza"]
     url: https://www.informatik.tu-darmstadt.de/systemsecurity/people_sys/people_details_sys_45184.en.jsp
+
+"sato":
+  - firstname: ["Takami"]
+    url: https://tkm2261.github.io/
 
 "shen":
   - firstname: ["Junjie"]
@@ -190,6 +266,10 @@
   - firstname: ["Xi"]
     url: https://mintancy.github.io/
 
+"trickel":
+  - firstname: ["Erik"]
+    url: https://trickel.com/
+
 "tu":
   - firstname: ["Huahong"]
     url: https://huahongtu.me/publications/   
@@ -198,6 +278,10 @@
 
 
 # V
+
+"upadhyaya":
+  - firstname: ["Shambhu"]
+    url: https://cse.buffalo.edu/~shambhu/
 
 "vadlamudi":
   - firstname: ["Satya Gautam", "Satya"]
@@ -212,6 +296,10 @@
     url: https://nishantvishwamitra.github.io/
 
 # W
+
+"walls":
+  - firstname: ["Robert"]
+    url: https://robert.walls.ninja/
 
 "wang":
   - firstname: ["Kuang-Ching"]
@@ -231,7 +319,11 @@
 
 "wu":
   - firstname: ["Cong"]
-    url: https://www.cong-wu.com​
+    url: https://www.cong-wu.com
+  - firstname: ["Ruoyu"]
+    url: https://wuruoyu.github.io/
+  - firstname: ["Yueming"]
+    url: https://wu-yueming.github.io/
 
 # X
 
@@ -242,6 +334,8 @@
   - firstname: ["Jun"]
     url: https://sites.google.com/view/junxzm
     
+  - firstname: ["Guowen"]
+    url: https://guowen-xu.github.io/
 # Y
 
 "yang":
@@ -250,11 +344,21 @@
     
 # Z
     
+"zhan":
+  - firstname: ["Zihao"]
+    url: https://zihaozhan.github.io/
+
 "zhang":
   - firstname: ["Ning"]
     url: https://cybersecurity.seas.wustl.edu/ning/index.html
   - firstname: ["Penghui"]
     url: https://formerbuckeye.github.io/me/    
+  - firstname: ["Zhenkai"]
+    url: https://my.vanderbilt.edu/zhenkaizhang/
+
+"zhou":
+  - firstname: ["Wei"]
+    url: https://weizhou-chaojixx.github.io/
 
 "ziarek":
   - firstname: ["Lukasz"]
