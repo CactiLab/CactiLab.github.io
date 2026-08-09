@@ -161,16 +161,21 @@ ninja.data = [{
           description: "KV NITA, India   August, 2021 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/High_School_Students_Alumni/Puhabi/";
+            },},{id: "projects-arshiya-hussain",
+          title: 'Arshiya Hussain',
+          description: "Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students/Arshiya/";
+            },},{id: "projects-rohan-suresh",
+          title: 'Rohan Suresh',
+          description: "Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students/Rohan/";
             },},{id: "projects-kushagra-srivastava",
           title: 'Kushagra Srivastava',
           description: "Summer 2026 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Master_Students/kushagra/";
-            },},{id: "projects-swadeep",
-          title: 'Swadeep',
-          description: "Spring 2025",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Master_Students/swadeep/";
             },},{id: "projects-ariel-shevah",
           title: 'Ariel Shevah',
           description: "Spring 2021",
@@ -246,6 +251,11 @@ ninja.data = [{
           description: "Spring 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Master_Students_Alumni/massimo/";
+            },},{id: "projects-swadeep",
+          title: 'Swadeep',
+          description: "Spring 2025  PhD Student at Northeastern University",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students_Alumni/swadeep/";
             },},{id: "projects-cong-wu",
           title: 'Cong Wu',
           description: "Wuhan University, 2022  Co-advised with Jing Chen  Postdoc at The University of Hong Kong",
@@ -253,7 +263,7 @@ ninja.data = [{
               window.location.href = "/projects/PhD_Alumni/Cong/";
             },},{id: "projects-md-armanuzzaman-tomal",
           title: 'Md. Armanuzzaman Tomal',
-          description: "University at Buffalo, 2024  Postdoc at Northeastern University  Assistant Professor at The University of Texas at El Paso",
+          description: "University at Buffalo, 2024  Postdoc at Northeastern University, 2024 - 2025  Assistant Professor at The University of Texas at El Paso",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Alumni/Tomal/";
             },},{id: "projects-wonkyu-han",
@@ -371,6 +381,16 @@ ninja.data = [{
           description: "Summer 2022 from ASU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Undergraduate_Alumni/XIxian/";
+            },},{id: "projects-guanghui-tao",
+          title: 'Guanghui Tao',
+          description: "Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Undergraduate_Students/Guanghui/";
+            },},{id: "projects-jackson-hutton",
+          title: 'Jackson Hutton',
+          description: "Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Undergraduate_Students/Jackson/";
             },},{id: "projects-suk-bok-lee",
           title: 'Suk-Bok Lee',
           description: "Hanyang University  Fall 2026 - Summer 2027",
