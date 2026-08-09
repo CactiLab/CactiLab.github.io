@@ -4,7 +4,7 @@ title: Members
 permalink: /members/
 nav: true
 nav_order: 2
-display_categories: [Director, PhD Students, Master Students, Undergraduate Students, PhD Alumni, Master Students Alumni, Undergraduate Students Alumni, High School Students Alumni]
+display_categories: [Director, PhD Students, Master Students, Undergraduate Students, Visiting Professors, Visiting Students, PhD Alumni, Master Students Alumni, Undergraduate Students Alumni, High School Students Alumni]
 horizontal: false
 ---
 
