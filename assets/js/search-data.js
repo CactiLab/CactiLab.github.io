@@ -161,6 +161,11 @@ ninja.data = [{
           description: "KV NITA, India   August, 2021 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/High_School_Students_Alumni/Puhabi/";
+            },},{id: "projects-kushagra-srivastava",
+          title: 'Kushagra Srivastava',
+          description: "Summer 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students/kushagra/";
             },},{id: "projects-swadeep",
           title: 'Swadeep',
           description: "Spring 2025",
@@ -201,6 +206,11 @@ ninja.data = [{
           description: "Fall 2022 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Master_Students_Alumni/Jieqin/";
+            },},{id: "projects-junbeom-in",
+          title: 'Junbeom In',
+          description: "Fall 2024 - Summer 2026",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students_Alumni/Jun/";
             },},{id: "projects-malav-vyas",
           title: 'Malav Vyas',
           description: "Spring 2021",
@@ -243,7 +253,7 @@ ninja.data = [{
               window.location.href = "/projects/PhD_Alumni/Cong/";
             },},{id: "projects-md-armanuzzaman-tomal",
           title: 'Md. Armanuzzaman Tomal',
-          description: "University at Buffalo, 2024  Assistant Professor at The University of Texas at El Paso",
+          description: "University at Buffalo, 2024  Postdoc at Northeastern University  Assistant Professor at The University of Texas at El Paso",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Alumni/Tomal/";
             },},{id: "projects-wonkyu-han",
@@ -256,16 +266,36 @@ ninja.data = [{
           description: "University at Buffalo, 2024  Assistant Professor at University of Colorado Colorado Springs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Alumni/Xi/";
+            },},{id: "projects-bora-arcak",
+          title: 'Bora Arcak',
+          description: "Co-advised with Engin Kirda  Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PhD_Students/Bora/";
+            },},{id: "projects-dabin-jang",
+          title: 'Dabin Jang',
+          description: "Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PhD_Students/Dabin/";
             },},{id: "projects-gaoxiang-liu",
           title: 'Gaoxiang Liu',
           description: "Co-advised with Zhuoyue Zhao  Spring 2023 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Students/Gaoxiang/";
-            },},{id: "projects-junbeom-in",
-          title: 'Junbeom In',
-          description: "Fall 2024 -",
+            },},{id: "projects-ilya-yatsenko",
+          title: 'Ilya Yatsenko',
+          description: "Co-advised with Engin Kirda  Fall 2026 -",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/PhD_Students/Jun/";
+              window.location.href = "/projects/PhD_Students/Ilya/";
+            },},{id: "projects-onur-baylam",
+          title: 'Onur Baylam',
+          description: "Co-advised with Engin Kirda  Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PhD_Students/Onur/";
+            },},{id: "projects-ruogu-yang",
+          title: 'Ruogu Yang',
+          description: "Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PhD_Students/Ruogu/";
             },},{id: "projects-sagar-mohan",
           title: 'Sagar Mohan',
           description: "Fall 2024 -",
@@ -341,6 +371,21 @@ ninja.data = [{
           description: "Summer 2022 from ASU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Undergraduate_Alumni/XIxian/";
+            },},{id: "projects-suk-bok-lee",
+          title: 'Suk-Bok Lee',
+          description: "Hanyang University  Fall 2026 - Summer 2027",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Visiting_Professors/SukBok/";
+            },},{id: "projects-seungyun-kim",
+          title: 'Seungyun Kim',
+          description: "Undergraduate, Hanyang University  Fall 2026 - Summer 2027",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Visiting_Students/Seungyun/";
+            },},{id: "projects-yijia-ma",
+          title: 'Yijia Ma',
+          description: "Undergraduate, Shanghai Jiao Tong University  Summer 2026 - Fall 2026",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Visiting_Students/Yijia/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
