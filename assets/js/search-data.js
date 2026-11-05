@@ -171,6 +171,11 @@ ninja.data = [{
           description: "Fall 2026 -",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Master_Students/Rohan/";
+            },},{id: "projects-venkata-sai-nataraja-vamsi-krishna-palaparty",
+          title: 'Venkata Sai Nataraja Vamsi Krishna Palaparty',
+          description: "Fall 2026 -",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Master_Students/Vamsi/";
             },},{id: "projects-kushagra-srivastava",
           title: 'Kushagra Srivastava',
           description: "Summer 2026 -",
@@ -336,6 +341,11 @@ ninja.data = [{
           description: "University at Buffalo, 2024  Postdoc at Northeastern University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Postdocs/Tomal/";
+            },},{id: "projects-alex-eastman",
+          title: 'Alex Eastman',
+          description: "University at Buffalo",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Undergraduate_Alumni/Alex/";
             },},{id: "projects-dikshit-khandelwal",
           title: 'Dikshit Khandelwal',
           description: "Fall 2021",
