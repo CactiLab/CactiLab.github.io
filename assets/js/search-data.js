@@ -263,7 +263,7 @@ ninja.data = [{
               window.location.href = "/projects/Master_Students_Alumni/swadeep/";
             },},{id: "projects-cong-wu",
           title: 'Cong Wu',
-          description: "Wuhan University, 2022  Co-advised with Jing Chen  Postdoc at The University of Hong Kong",
+          description: "Wuhan University, 2022  Co-advised with Jing Chen  Professor at Wuhan University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhD_Alumni/Cong/";
             },},{id: "projects-md-armanuzzaman-tomal",
